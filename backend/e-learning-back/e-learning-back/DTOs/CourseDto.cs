@@ -17,10 +17,11 @@ namespace e_learning_back.DTOs
         [StringLength(50)]
         public string Code { get; set; } = string.Empty;
         
-        [Range(1, 30)]
+        [Range(1, 10)]
         public int Credits { get; set; }
         
-        public CourseStatus Status { get; set; } = CourseStatus.Draft;
+        [Required]
+        public int ProfessorId { get; set; }
     }
 
     // DTO pentru actualizarea unui curs
@@ -35,7 +36,7 @@ namespace e_learning_back.DTOs
         [StringLength(50)]
         public string? Code { get; set; }
         
-        [Range(1, 30)]
+        [Range(1, 10)]
         public int? Credits { get; set; }
         
         public CourseStatus? Status { get; set; }
@@ -52,10 +53,19 @@ namespace e_learning_back.DTOs
         public CourseStatus Status { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
-        public UserDto Professor { get; set; } = null!;
+        public int ProfessorId { get; set; }
+        public string ProfessorName { get; set; } = string.Empty;
         public int EnrolledStudentsCount { get; set; }
         public int LessonsCount { get; set; }
         public int AssessmentsCount { get; set; }
+    }
+
+    // DTO pentru curs cu detalii complete
+    public class CourseDetailDto : CourseDto
+    {
+        public List<UserDto> EnrolledStudents { get; set; } = new List<UserDto>();
+        public List<LessonDto> Lessons { get; set; } = new List<LessonDto>();
+        public List<AssessmentDto> Assessments { get; set; } = new List<AssessmentDto>();
     }
 
     // DTO pentru lista de cursuri
@@ -78,6 +88,22 @@ namespace e_learning_back.DTOs
         
         [Required]
         public int StudentId { get; set; }
+    }
+
+    // DTO minim pentru Lesson (pentru a evita dependențe circulare)
+    public class LessonDto
+    {
+        public int Id { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public int OrderIndex { get; set; }
+    }
+
+    // DTO minim pentru Assessment
+    public class AssessmentDto
+    {
+        public int Id { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public DateTime? DueDate { get; set; }
     }
 
     // Folosim enum-ul din Models

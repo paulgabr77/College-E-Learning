@@ -19,6 +19,7 @@ builder.Services.AddScoped<ICourseRepository, CourseRepository>();
 
 // Register Services
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ICourseService, CourseService>();
 
 // Configure CORS
 builder.Services.AddCors(options =>

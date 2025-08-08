@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\paulg\\OneDrive\\Documente\\GitHub\\College-E-Learning\\backend\\e-learning-back\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B832FE4C-55D8-4387-9A7C-D33FB70058BA}|e-learning-back\\e-learning-back.csproj|c:\\users\\paulg\\onedrive\\documente\\github\\college-e-learning\\backend\\e-learning-back\\e-learning-back\\migrations\\20250801160400_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B832FE4C-55D8-4387-9A7C-D33FB70058BA}|e-learning-back\\e-learning-back.csproj|solutionrelative:e-learning-back\\migrations\\20250801160400_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B832FE4C-55D8-4387-9A7C-D33FB70058BA}|e-learning-back\\e-learning-back.csproj|c:\\users\\paulg\\onedrive\\documente\\github\\college-e-learning\\backend\\e-learning-back\\e-learning-back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B832FE4C-55D8-4387-9A7C-D33FB70058BA}|e-learning-back\\e-learning-back.csproj|solutionrelative:e-learning-back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B832FE4C-55D8-4387-9A7C-D33FB70058BA}|e-learning-back\\e-learning-back.csproj|c:\\users\\paulg\\onedrive\\documente\\github\\college-e-learning\\backend\\e-learning-back\\e-learning-back\\migrations\\20250801160400_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B832FE4C-55D8-4387-9A7C-D33FB70058BA}|e-learning-back\\e-learning-back.csproj|solutionrelative:e-learning-back\\migrations\\20250801160400_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B832FE4C-55D8-4387-9A7C-D33FB70058BA}|e-learning-back\\e-learning-back.csproj|c:\\users\\paulg\\onedrive\\documente\\github\\college-e-learning\\backend\\e-learning-back\\e-learning-back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B832FE4C-55D8-4387-9A7C-D33FB70058BA}|e-learning-back\\e-learning-back.csproj|solutionrelative:e-learning-back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B832FE4C-55D8-4387-9A7C-D33FB70058BA}|e-learning-back\\e-learning-back.csproj|c:\\users\\paulg\\onedrive\\documente\\github\\college-e-learning\\backend\\e-learning-back\\e-learning-back\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B832FE4C-55D8-4387-9A7C-D33FB70058BA}|e-learning-back\\e-learning-back.csproj|solutionrelative:e-learning-back\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B832FE4C-55D8-4387-9A7C-D33FB70058BA}|e-learning-back\\e-learning-back.csproj|c:\\users\\paulg\\onedrive\\documente\\github\\college-e-learning\\backend\\e-learning-back\\e-learning-back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B832FE4C-55D8-4387-9A7C-D33FB70058BA}|e-learning-back\\e-learning-back.csproj|solutionrelative:e-learning-back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B832FE4C-55D8-4387-9A7C-D33FB70058BA}|e-learning-back\\e-learning-back.csproj|c:\\users\\paulg\\onedrive\\documente\\github\\college-e-learning\\backend\\e-learning-back\\e-learning-back\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B832FE4C-55D8-4387-9A7C-D33FB70058BA}|e-learning-back\\e-learning-back.csproj|solutionrelative:e-learning-back\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\paulg\\OneDrive\\Documente\\GitHub\\College-E-Learning\\backend\\e-learning-back\\e-learning-back\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "e-learning-back\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\paulg\\OneDrive\\Documente\\GitHub\\College-E-Learning\\backend\\e-learning-back\\e-learning-back\\Properties\\launchSettings.json",
+              "RelativeToolTip": "e-learning-back\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-07T14:02:34.366Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -42,20 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20250801160400_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\paulg\\OneDrive\\Documente\\GitHub\\College-E-Learning\\backend\\e-learning-back\\e-learning-back\\Migrations\\20250801160400_InitialCreate.cs",
-              "RelativeDocumentMoniker": "e-learning-back\\Migrations\\20250801160400_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\paulg\\OneDrive\\Documente\\GitHub\\College-E-Learning\\backend\\e-learning-back\\e-learning-back\\Migrations\\20250801160400_InitialCreate.cs",
-              "RelativeToolTip": "e-learning-back\\Migrations\\20250801160400_InitialCreate.cs",
-              "ViewState": "AgIAAOgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T14:06:52.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\paulg\\OneDrive\\Documente\\GitHub\\College-E-Learning\\backend\\e-learning-back\\e-learning-back\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "e-learning-back\\WeatherForecast.cs",
@@ -68,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\paulg\\OneDrive\\Documente\\GitHub\\College-E-Learning\\backend\\e-learning-back\\e-learning-back\\appsettings.json",
               "RelativeDocumentMoniker": "e-learning-back\\appsettings.json",
@@ -81,15 +85,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\paulg\\OneDrive\\Documente\\GitHub\\College-E-Learning\\backend\\e-learning-back\\e-learning-back\\Program.cs",
               "RelativeDocumentMoniker": "e-learning-back\\Program.cs",
               "ToolTip": "C:\\Users\\paulg\\OneDrive\\Documente\\GitHub\\College-E-Learning\\backend\\e-learning-back\\e-learning-back\\Program.cs",
               "RelativeToolTip": "e-learning-back\\Program.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAEwDUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-01T13:16:17.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250801160400_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\paulg\\OneDrive\\Documente\\GitHub\\College-E-Learning\\backend\\e-learning-back\\e-learning-back\\Migrations\\20250801160400_InitialCreate.cs",
+              "RelativeDocumentMoniker": "e-learning-back\\Migrations\\20250801160400_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\paulg\\OneDrive\\Documente\\GitHub\\College-E-Learning\\backend\\e-learning-back\\e-learning-back\\Migrations\\20250801160400_InitialCreate.cs",
+              "RelativeToolTip": "e-learning-back\\Migrations\\20250801160400_InitialCreate.cs",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T14:06:52.033Z",
               "EditorCaption": ""
             }
           ]
