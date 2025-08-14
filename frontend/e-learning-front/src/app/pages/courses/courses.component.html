@@ -1,0 +1,15 @@
+<div class="p-4 space-y-4">
+    <h1 class="text-2xl font-semibold">Cursuri</h1>
+
+    <div *ngIf="loading()">Se încarcă...</div>
+    <div *ngIf="error()" class="text-red-600">{{ error() }}</div>
+
+    <div class="grid gap-4 md:grid-cols-2" *ngIf="!loading() && !error()">
+        <div class="border rounded p-3" *ngFor="let c of courses()">
+            <div class="font-medium">{{ c.title }} ({{ c.code }})</div>
+            <div class="text-sm text-gray-600">Profesor: {{ c.professorName }}</div>
+            <div class="text-sm">Credite: {{ c.credits }}</div>
+            <div class="text-sm">Înscriși: {{ c.enrolledStudentsCount }}</div>
+        </div>
+    </div>
+</div>

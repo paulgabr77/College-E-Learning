@@ -1,0 +1,23 @@
+<div class="min-h-screen flex items-center justify-center p-4">
+    <form (ngSubmit)="submit()" class="w-full max-w-sm space-y-4">
+        <h1 class="text-2xl font-semibold">Autentificare</h1>
+
+        <div>
+            <label class="block mb-1">Email</label>
+            <input class="border rounded w-full p-2" type="email" [ngModel]="email()"
+                (ngModelChange)="email.set($event)" name="email" required />
+        </div>
+
+        <div>
+            <label class="block mb-1">Parola</label>
+            <input class="border rounded w-full p-2" type="password" [ngModel]="password()"
+                (ngModelChange)="password.set($event)" name="password" required />
+        </div>
+
+        <div *ngIf="error()" class="text-red-600 text-sm">{{ error() }}</div>
+
+        <button class="bg-blue-600 text-white px-4 py-2 rounded" [disabled]="loading()" type="submit">
+            {{ loading() ? 'Se autentifică...' : 'Login' }}
+        </button>
+    </form>
+</div>
